@@ -36,7 +36,7 @@
                                 <td class="text-center">{{ $loop->iteration }}</td>
                                 <td>{{ $materi->judul }}</td>
                                 <td class="text-center">{{ ucfirst(str_replace('_', ' ', $materi->kategori)) }}</td>
-                                <td class="text-center">{{ strtoupper($materi->tipe_media) }}</td>
+                                <td class="text-center">{{ strtoupper($materi->jenis) }}</td>
                                 <td class="text-center">{{ $materi->created_at->format('d-m-Y') }}</td>
                                 <td class="text-center">
                                     <a href="{{ route('admin.materi.edit', $materi->id) }}" class="btn btn-warning btn-sm">Edit</a>

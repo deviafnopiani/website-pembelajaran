@@ -19,7 +19,7 @@
                 <div class="text-center">
                 <div class  = "feature-icon text-center fs-2">🔎</div>
                 <h5 class="card-title fw-bold text-center">Informasi Kesehatan</h5>
-                <a href="{{ route('user.informasi-kesehatan.index') }}" class="btn btn-light btn-sm">Kelola</a>
+                <a href="{{ route('user.informasi-kesehatan.index') }}" class="btn btn-light btn-sm">Lihat Informasi</a>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
                 <div class="feature-icon text-center fs-2">🎥</div>
                 <h5 class="card-title fw-bold text-center">Zoom Meeting</h5>
                 <div class="text-center">
-                <a href="{{ route('user.zoom-rooms.index') }}" class="btn btn-light btn-sm ">Kelola Zoom</a>
+                <a href="{{ route('user.zoom-rooms.index') }}" class="btn btn-light btn-sm ">Lihat Jadwal Zoom</a>
             </div>
             </div>
         </div>
